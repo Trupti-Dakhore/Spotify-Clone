@@ -1,0 +1,8 @@
+Uncaught TypeError: songItem.forEach is not a function
+    at script.js:23:10
+ 
+
+>>let songItem = document.getElementsByClassName('songItem')
+
+>>let songItem =Array.from(document.getElementsByClassName('songItem'));
+bcz it is a HTML collection
